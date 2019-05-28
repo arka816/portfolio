@@ -33,6 +33,7 @@ div.link{
 	margin-left: 30px;
 	margin-right: 30px;
 	border-radius: 20px;
+	text-align: left;
 }
 div.link:hover{
 	background-color: rgba(200,200,255,0.6);
@@ -58,8 +59,6 @@ div.link span:hover{
 	border-bottom: 2px solid rgba(255,255,255,0.7);
 }
 
-
-/*code for body background*/
 body{
 	background-image: url('bg.jpg');
 	background-repeat: no-repeat;
@@ -68,7 +67,6 @@ body{
 	text-align: center;
 }
 
-/*code for heading*/
 h1{
 	font-size: 400%;
 }
