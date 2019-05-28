@@ -1,0 +1,119 @@
+body{
+	background-image: url('bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+div.info{
+	width: 600px;
+	height: 450px;
+	padding: 10px;
+	border-radius: 20px;
+	background-color: rgba(150,150,200,0.2);
+	margin-left: 75px;
+	margin-top: 100px;
+	filter: blur(2px);
+}
+div.info:hover{
+	filter: blur(0px);
+	background-color: rgba(150,150,200,0.3);
+	color: rgba(250,25,250,1);
+	transition: 2s;
+}
+
+/*code for image portion*/
+div.image{
+	width: 640px;
+	height: 640px;
+	border-radius: 60px;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+img.round{						
+	border-radius: 30px;
+}
+
+/*code for link portion*/
+div.link{
+	background-color: rgba(200,200,200,0.2);
+	margin-left: 30px;
+	margin-right: 30px;
+	border-radius: 20px;
+}
+div.link:hover{
+	background-color: rgba(255,255,255,0.3);
+}
+a{
+	text-decoration: none;
+	color: rgba(0,0,255,0.7);
+	font-size: 135%;
+}
+a:hover{
+	color: white;
+}
+a:visited{
+	color: indigo;
+}
+div.link span{
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-bottom: 8px;
+}
+div.link span:hover{
+	border-bottom: 2px solid rgba(255,255,255,0.7);
+}
+
+
+/*code for body background*/
+body{
+	background-image: url('/images/39.jpg');
+	background-repeat: none;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/*code for heading*/
+h1{
+	font-size: 400%;
+}
+
+
+/*code for footer*/
+div.footer{
+	margin-top: 100px;
+}
+div.footer span{
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 70%;
+}	
+div.footer span a{
+	color: black;
+}
+div.footer span a:hover{
+	color: white;
+}
+
+div.cont{
+	width: 1000px;
+	height: 200px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 200px;
+	margin-bottom: 200px;
+	padding-top: 30px;
+	border-radius: 20px;
+	background-color: rgba(150,150,200,0.2);
+	color: rgba(50,25,250,0.3);
+	margin-left: 240px;
+	margin-top: 55px;
+	filter: blur(3px);
+}
+div.cont:hover{
+	background-color: rgba(255,255,255,0.3);
+	color: rgba(50,25,250,1);
+	transition: 2s;
+	filter: blur(0px);
+}
+div.cont p img{
+	border-radius: 5px;
+}
